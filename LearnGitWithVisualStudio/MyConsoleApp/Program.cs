@@ -11,5 +11,7 @@ namespace MyConsoleApp
         static void Main(string[] args)
         {
         }
+
+        public int P1 { get; set; }
     }
 }
