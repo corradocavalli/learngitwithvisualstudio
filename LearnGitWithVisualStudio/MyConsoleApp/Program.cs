@@ -12,8 +12,14 @@ namespace MyConsoleApp
         {
             if (args == null) throw new ArgumentNullException(nameof(args));
             //This is PR1 and this is appendix B
+            
         }
 
         public int P1 { get; set; }
+
+        public static int Add(int a, int b)
+        {
+            return a + b;
+        }
     }
 }
