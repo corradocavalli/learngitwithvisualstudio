@@ -26,5 +26,10 @@ namespace MyConsoleApp
         {
             return a - b;
         }
+
+        public static double Multiply(int a, int b)
+        {
+            return a * b;
+        }
     }
 }
